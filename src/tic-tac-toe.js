@@ -7,8 +7,7 @@ class TicTacToe {
          [null, null, null], 
          [null, null, null], 
          [null, null, null]
-        ]
-      
+        ]  
     }
 
     getCurrentPlayerSymbol() {
@@ -29,9 +28,7 @@ class TicTacToe {
             return  this.step = 'o'
           } else {
             return  this.step = 'x'
-        }
-
-      
+        }  
     }
 
     isFinished() {
@@ -53,43 +50,6 @@ class TicTacToe {
         }
     
      return null
-
-        // const winBoardInd =  [
-        //     [[[0][0], [1][0], [2][0]]], 
-        //     [[0,1], [1,1], [2,2]], 
-        //     [[0,2], [1,2], [2,2]], 
-        //     [[0,2], [1,2], [2,2]],
-        //     [[0,0], [0,1], [0,2]],
-        //     [[1,0], [1,1], [1,2]],
-        //     [[2,0], [2,1], [2,2]],
-        //     [[2,0], [2,1], [2,2]],
-        //     [[0,0], [1,1], [2,2]],
-        //     [[0,2], [1,1], [2,0]]
-        //    ] 
-
-        // for (const combination of winBoardInd) {
-        //     for (const combWin of combination ) {
-        //         for (const combWin2 of combWin ) {
-        //             const [a,b,c] = combWin2;
-        //             console.log(this.board[a])
-        //             if (this.board[a] && (this.board[a] === this.board[b] && this.board[a] === this.board[c])) {
-        //                 return  this.board
-        //             }
-        //         }
-               
-        //     } 
-         
-        // //   console.log(a)
-        // //   console.log(b)
-        // //   console.log(c)
-        // //   if (this.board[a][a] === this.board[b][b] && this.board[a][a] === this.board[c][c]) {
-        // //     // console.log(this.board)
-        // //     // console.log(combination)
-        // //     console.log(combination)
-                  
-        // //   } 
-        // } 
-      
     }
 
     noMoreTurns() {
